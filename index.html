@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Load Paper.js Library-->
+    <script type="text/javascript" src="js/paper.js"></script>
+
+    <script type="text/paperscript" src="myScript.js" canvas="mycanvas"></script>
+
+    <!-- Automatic Resizing CSS-->
+    <style>
+        html, body{
+            height:100%;
+        }
+        canvas[resize]{
+            width:100%;
+            height:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="mycanvas" resize></canvas>
+</body>
+</html>
